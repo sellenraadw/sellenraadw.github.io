@@ -47,6 +47,10 @@ a img {
 /* END RESET*/
 
       /* GLOBAL STYLES */
+      html {
+        box-shadow: 0 0 0 30px #000 inset;
+        padding: 0 30px;
+      }
       body {
         font-family:  helvetica, arial, sans;
       }
@@ -78,6 +82,7 @@ a img {
         box-sizing: border-box;
         display: block;
         height: 10vh;
+        left: -30px;
         padding-top: 10px;
         position: relative;
         text-align: center;
@@ -119,6 +124,24 @@ a img {
       .header-nav > li:first-child a:hover {
       color: #fff;
         }
+
+      /* FOOTER STYES */
+      .footer {
+        background-color:  #000;
+        padding: 10vh 0 15vh;
+        text-align: center;
+      }
+      .footer-logo img {
+        width: 50px;
+      }
+      .footer h3 {
+        color: #fff;
+        padding-top:  1.5em;
+        text-transform: uppercase;
+      }
+      .footer h3 span {
+        color: #aaa;
+      }
 
       /* HERO STYLES */
       .full-hero {
